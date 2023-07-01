@@ -17,6 +17,7 @@ function Calendar() {
                 right: 'dayGridMonth,timeGridWeek,timeGridDay'
             }}
             height={"90vh"}
+            aspectRatio={1}
             weekends={false}
             events={[
                 { title: 'event 1', date: '2021-09-01' },
